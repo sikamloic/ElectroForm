@@ -1,0 +1,113 @@
+.logo{
+    width: 119px;
+    left: 39px;
+}
+.typo{
+    font-family: Helvetica;
+    /* width: 100px; */
+    font-size: 12px;
+    color: black !important;
+    list-style: none;
+}
+.footer{
+    background-color:#F5A03A;
+}
+.center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer h1{
+    font-family: Helvetica;
+font-size: 14px;
+font-style: normal;
+font-weight: bold;
+/* line-height: 29px;
+letter-spacing: 0em; */
+/* text-align: left; */
+}
+.footer > p{
+    font-family: Helvetica;
+    font-size: 10;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+
+}
+.navbar-brand img{
+    position: absolute;
+}
+.circle-1{
+    border: 1px solid white;
+    border-radius: 100px;
+    background-color: rgba(245, 160, 58, 0.6);
+    height: 170px;
+    width: 170px;
+    font-size: 30px;
+    text-align: center;
+    justify-content: center;
+    padding-top: 40px;
+}
+.circle-2{
+    background-color: rgba(245, 160, 58, 0.6);
+    border: 1px solid white;
+    border-radius: 110px;
+    height: 220px;
+    width: 220px;
+    font-size: 35px;
+    text-align: center;
+    justify-content: center;
+    padding-top: 65px;
+}
+.circle-3{
+    background-color: rgba(245, 160, 58, 0.8);
+    border: 1px solid white;
+    border-radius: 150px;
+    height: 300px;
+    width: 300px;
+    font-size: 40px;
+    text-align: center;
+    justify-content: center;
+    padding-top: 80px;
+}
+.circle-4{
+    background-color: rgba(245, 160, 58, 0.9);
+    border: 1px solid white;
+    border-radius: 200px;
+    height: 400px;
+    width: 400px;
+    font-size: 62px;
+    text-align: center;
+    justify-content: center;
+    padding-top: 120px;
+}
+.cont5{
+    margin-bottom: 100px;
+    left: 150px;
+    bottom: 100px;
+}
+.circle-5{
+    border: 1px solid white;
+    border-radius: 100px;
+    background-color: #F5A03A;
+    height: 170px;
+    width: 170px;
+    font-size: 30px;
+    text-align: center;
+    justify-content: center;
+    padding-top: 40px;
+}
+.cont6{
+    margin-top: 170px;
+}
+span{
+    color:rgba(245, 160, 58, 0.6);
+    font-size: 50px;
+}
+.cont2{
+    font-family: helvetica;
+    font-size: 18px;
+}
+.div1{
+    margin-top: 100px;
+}
