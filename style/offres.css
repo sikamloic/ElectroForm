@@ -9,6 +9,10 @@
     color: black !important;
     list-style: none;
 }
+.test a{
+    font-weight: bolder;
+    font-size: 15px;
+}
 .footer{
     background-color:#F5A03A;
 }
@@ -43,7 +47,9 @@ letter-spacing: 0em; */
     background-color: rgba(245, 160, 58, 0.6);
     height: 170px;
     width: 170px;
-    font-size: 30px;
+    font-size: 25px;
+    display: flex;
+    flex-direction: row;
     text-align: center;
     justify-content: center;
     padding-top: 40px;
@@ -66,9 +72,10 @@ letter-spacing: 0em; */
     height: 300px;
     width: 300px;
     font-size: 40px;
+    display: flex;
     text-align: center;
     justify-content: center;
-    padding-top: 80px;
+    padding: 80px;
 }
 .circle-4{
     background-color: rgba(245, 160, 58, 0.9);
@@ -82,9 +89,9 @@ letter-spacing: 0em; */
     padding-top: 120px;
 }
 .cont5{
-    margin-bottom: 100px;
-    left: 150px;
-    bottom: 100px;
+    margin-bottom: 200px;
+    margin-left: 200px;
+    bottom: 0;
 }
 .circle-5{
     border: 1px solid white;
@@ -98,11 +105,23 @@ letter-spacing: 0em; */
     padding-top: 40px;
 }
 .cont6{
-    margin-top: 170px;
+    margin-top: 10px;
+    margin-bottom: 100px;
+    bottom: 100px;
+}
+.link a{
+    font-family: helvetica;
+    font-size: 30px;
+    text-decoration-style: none;
+    color: #1e1e1e;
+    text-decoration: none;
+}
+.link{
+    margin-bottom: 30px;
 }
 span{
     color:rgba(245, 160, 58, 0.6);
-    font-size: 50px;
+    font-size: 40px;
 }
 .cont2{
     font-family: helvetica;
@@ -110,4 +129,7 @@ span{
 }
 .div1{
     margin-top: 100px;
+}
+.cont4{
+    float: right;
 }

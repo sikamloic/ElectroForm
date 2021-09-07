@@ -9,6 +9,10 @@
     color: black !important;
     list-style: none;
 }
+.test a{
+    font-weight: bolder;
+    font-size: 15px;
+}
 .footer{
     background-color:#F5A03A;
 }
