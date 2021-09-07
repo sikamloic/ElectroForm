@@ -100,12 +100,18 @@ h5{
     text-decoration-style: none;
     color: #1e1e1e;
     text-decoration: none;
+    text-align: center;
+    display: flex;
+    align-items: center;
 }
 .link{
     border: 1px solid#F5A03A;
     width: 275px;
     background-color: #F5A03A;
     border-radius: 30px;
+    display: flex;
+    align-items: center;
+    
 }
 @media screen and (max-width:600px){
     .cnt{
