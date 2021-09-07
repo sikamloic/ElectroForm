@@ -52,7 +52,7 @@ letter-spacing: 0em; */
     flex-direction: row;
     text-align: center;
     justify-content: center;
-    padding-top: 40px;
+    padding: 50px 5px 5px 5px;
 }
 .circle-2{
     background-color: rgba(245, 160, 58, 0.6);
@@ -60,10 +60,10 @@ letter-spacing: 0em; */
     border-radius: 110px;
     height: 220px;
     width: 220px;
-    font-size: 35px;
+    font-size: 32px;
     text-align: center;
     justify-content: center;
-    padding-top: 65px;
+    padding: 70px 10px 10px 10px
 }
 .circle-3{
     background-color: rgba(245, 160, 58, 0.8);
@@ -83,15 +83,14 @@ letter-spacing: 0em; */
     border-radius: 200px;
     height: 400px;
     width: 400px;
-    font-size: 62px;
+    font-size: 60px;
     text-align: center;
     justify-content: center;
-    padding-top: 120px;
+    padding: 125px 10px 10px 10px;
 }
 .cont5{
-    margin-bottom: 200px;
-    margin-left: 200px;
-    bottom: 0;
+    margin: 0;
+    padding: 0px 0px 0px 100px;
 }
 .circle-5{
     border: 1px solid white;
@@ -105,9 +104,8 @@ letter-spacing: 0em; */
     padding-top: 40px;
 }
 .cont6{
-    margin-top: 10px;
+    margin-top: 0;
     margin-bottom: 100px;
-    bottom: 100px;
 }
 .link a{
     font-family: helvetica;
@@ -131,5 +129,5 @@ span{
     margin-top: 100px;
 }
 .cont4{
-    float: right;
+    margin: 0;
 }
