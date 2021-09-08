@@ -28,16 +28,18 @@
         </div>
     </nav>
     <div class="container">
-        <h1 class="h1 text-center" style="color:#F5A03A;">
+        <h1 class="h1">
             Profitez dès à present de nos offres
         </h1>
-        <div class="row div1">
-            <div class="col-md-4 col-xs-4 cont1">
-               <h1 class="circle-1">
-                1ère séance offerte
-               </h1> 
+        <div class="row">
+            <div class=" col-md-4 circle-1">
+                <div class="content-1">
+                    <h5>
+                        1ère séance offerte
+                    </h5>
+                </div>
             </div>
-            <div class="col-md-8 col-xs-7 cont2">
+            <div class="col-md-8 title">
                 <p>
                     Nous vous proposons plusieurs abonnement, sélectionnez celui qui correspond et qui 
                     répond à vos besoins et vos objectifs.
@@ -49,27 +51,37 @@
             </div>
         </div>
         <div class="row">
-           <div class="col-md-5 col-xs-4 cont3">
-               <h1 class="circle-2">
+           <div class="col-md-4 circle-2">
+               <div class="content-2">
+                <h4>
                     Abonnement 3 mois
-               </h1>
+               </h4>
+               </div>
            </div>
-           <div class="col-md-7 col-xs-8 cont4" align="right">
-               <h1 class="circle-3">
-                    Abonnement 6 mois
-               </h1>
+           <div class=" col-md-8 circle-3">
+               <div class="content-3">
+                    <h3>
+                        Abonnement 6 mois
+                    </h3>
+               </div>
            </div>
         </div>
         <div class="row">
-            <div class="col-12 col-xs-12 cont5">
-                <h1 class="circle-4">
-                    Abonnement 1 an
-                </h1>
+            <div class="circle-4">
+                <div class="content-4">
+                    <h1>
+                        Abonnement 1 an
+                    </h1>
+                </div>
+                
             </div>
-            <div class="col-12 col-xs-1 cont6" align="right">
-                <h1 class="circle-5">
-                    Carte 10 séances 
-                </h1>
+            <div class="circle-5 end-0">
+                <div class="content-5">
+                    <h5 >
+                        Carte 10 séances 
+                    </h5>
+                </div>
+                
             </div>
         </div>
         <div class="link">
@@ -115,4 +127,14 @@
         </div>
     </div>
 </body>
+<script
+  src="https://code.jquery.com/jquery-3.6.0.min.js"
+  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+  crossorigin="anonymous"></script>
+<script>
+    $('.circle1').height($('.circle1').width());
+    $('.circle2').height($('.circle2').width());
+    $('.circle3').height($('.circle3').width());
+    $('.circle4').height($('.circle4').width());
+</script>
 </html>
